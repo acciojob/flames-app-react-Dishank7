@@ -11,6 +11,7 @@ const App = () =>{
     function calculateRelationship(){
        if(name1 == "" || name2 == ""){
         alert("pls enter all the fields")
+        return
        }
 
       for(let i = 0; i < name1.length; i++){
